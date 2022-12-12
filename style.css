@@ -1,0 +1,50 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70%;
+    margin: 0 auto; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    max-height: 70px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.logo {
+    width: auto;
+    height: 50px;
+    padding: 5px 50px;
+}
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 50px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+h1 {
+    font-size: 48px;
+}
+.hero-text {
+    max-width: 40%;
+    padding: 10px;
+}
+button {
+    margin: 20px;
+    padding: 5px;
+}
+.upper-part {
+    display: flex;
+}
+.kratosgow img {
+    margin-left: 30%;
+    margin-top: 4%;
+    width: 50%;
+    height: auto;
+}
