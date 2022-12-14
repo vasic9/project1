@@ -10,7 +10,6 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
     max-height: 70px;
     width: 100%;
     margin-bottom: 50px;
@@ -18,18 +17,20 @@ header {
 .logo {
     width: auto;
     height: 50px;
-    padding: 5px 50px;
 }
 .header-links {
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding-right: 50px;
+    gap: 30px;
     font-size: 18px;
     color: #f9faf8;
 }
 h1 {
     font-size: 48px;
+    color: #f9faf8;
+}
+h3 {
+    color: #f9faf8;
 }
 .hero-text {
     max-width: 40%;
@@ -37,7 +38,12 @@ h1 {
 }
 button {
     margin: 20px;
-    padding: 5px;
+    padding:15px 31px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 20px;
+    text-decoration:none;
+    border: 2px solid;
 }
 .upper-part {
     display: flex;
@@ -47,4 +53,34 @@ button {
     margin-top: 4%;
     width: 50%;
     height: auto;
+}
+.bottom-part {
+    margin-top: 20px;
+    background-color: darksalmon;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+#elden img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#elden {
+    text-align: center;
+}
+.other-games img{
+    width: 70%;
+    height: auto;
+}
+.other-games {
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+}
+img {
+    border-radius: 20px;
 }
