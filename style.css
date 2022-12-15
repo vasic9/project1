@@ -3,9 +3,8 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 70%;
-    margin: 0 auto; 
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 header {
     display: flex;
@@ -13,6 +12,7 @@ header {
     max-height: 70px;
     width: 100%;
     margin-bottom: 50px;
+    padding-left: 20%;
 }
 .logo {
     width: auto;
@@ -24,6 +24,7 @@ header {
     gap: 30px;
     font-size: 18px;
     color: #f9faf8;
+    padding-right: 40%;
 }
 h1 {
     font-size: 48px;
@@ -47,16 +48,20 @@ button {
 }
 .upper-part {
     display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .kratosgow img {
     margin-left: 30%;
-    margin-top: 4%;
+    margin-top: 10%;
     width: 50%;
     height: auto;
 }
 .bottom-part {
     margin-top: 20px;
-    background-color: darksalmon;
+    background-color: #5f5da8;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 h2 {
     text-align: center;
@@ -83,4 +88,23 @@ h2 {
 }
 img {
     border-radius: 20px;
+}
+.quote-part {
+    background-color: #b29afa;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-style: italic;
+}
+.quote-part p {
+    margin-top: 5%;
+}
+h5 {
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+.part-four {
+    background-color: #ffe5f4;
+    padding-left: 20%;
+    padding-right: 20%;
 }
